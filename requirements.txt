@@ -1,0 +1,13 @@
+# Legacy Qiskit notebook environment.
+#
+# These notebooks use APIs from the pre-1.0 Qiskit stack, including IBMQ,
+# BasicAer, execute, and qiskit.tools.jupyter magics. Avoid Qiskit 1.x unless
+# you also update the notebook code to the modern API.
+qiskit==0.43.3
+qiskit-aer==0.12.2
+qiskit-ibmq-provider==0.20.2
+
+notebook>=6,<7
+ipywidgets>=7,<8
+numpy>=1.23,<2
+matplotlib>=3.6,<4
